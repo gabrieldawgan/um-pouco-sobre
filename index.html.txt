@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>formulario</title>
+    </head>
+    <body>
+        <div style="color: blue;size: 20cm;text-align: center;">um pouco sobre voce</div>
+        <form>
+        <label for="email">seu email</label>
+        <input type="text" id="email"
+        name="email"
+        value="example@gmail.com">
+        </form>
+        <table>
+            <tr>
+                <th>seu nome</th><th>sua idade</th>
+            </tr>
+                <form>
+        
+                    <input type="text"> 
+                    <input type="date">
+                </form>
+        </table>
+        
+    <button onclick='alert("enviado")''>mandar</button>
+    </body>
+</html>
